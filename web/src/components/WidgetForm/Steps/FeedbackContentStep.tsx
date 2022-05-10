@@ -7,7 +7,7 @@ import { Loading } from "../Loading";
 import { ScreenshotButton } from "../ScreenshotButton";
 import { api } from "../../../lib/api";
 
-interface FeedbackContentStep {
+interface FeedbackContentStepProps {
     feedbackType: FeedbackType;
     onFeedbackRestartRequested: () => void;
     onFeedbackSent: () => void;
